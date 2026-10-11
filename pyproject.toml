@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grass-coach"
+version = "0.1.0"
+description = "A local open-weight agent that tells you when and why to go outside."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = []  # standard library only, on purpose
+
+[project.scripts]
+grass = "grass.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["grass*"]
+
+[tool.setuptools.package-data]
+grass = ["demo/*"]

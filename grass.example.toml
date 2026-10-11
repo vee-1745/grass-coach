@@ -1,0 +1,18 @@
+# Copy to ./grass.toml (or ~/.grass/grass.toml) and edit.
+
+# Where you are (find yours on any map; this is Nagpur)
+lat = 21.1458
+lon = 79.0882
+place = "Nagpur"
+
+# Your local open-weight model. Swap this line to swap the brain.
+# Try: "gemma3:4b", "gemma3n:e4b", "qwen3:4b", "llama3.2:3b", "phi4-mini"
+model = "gemma3:4b"
+backend = "ollama"                  # or "openai" for llama.cpp / LM Studio / vLLM
+endpoint = "http://localhost:11434" # llama.cpp default is http://localhost:8080
+
+voice = "ranger"                    # ranger | sensei | grandma | pirate | deadpan
+duration = 30                       # minutes you want to be outside
+
+# Export your calendar to a local .ics file; it is read on your machine and never uploaded.
+# ics = "/path/to/calendar.ics"
