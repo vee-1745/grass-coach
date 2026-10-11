@@ -1,6 +1,6 @@
 ---
 title: Grass Coach: a local Gemma agent that gets you off the screen in 10 seconds
-published: false
+published: true
 tags: devchallenge, hf26challenge
 ---
 
