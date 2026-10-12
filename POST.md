@@ -16,16 +16,15 @@ Most "go outside" apps have the same flaw: they're another app that wants your a
 - **Why** that window: written by a local open-weight model, in a voice you pick (park ranger, anime training-arc sensei, worried grandma, pirate, or deadpan British naturalist).
 - **A rule** to play by, which turns a walk into a side-quest: "Count flower colours; stop at 7." / "No headphones. Name 3 distinct sounds before you turn back." / "Photograph nothing. Memorise one thing and describe it to someone later."
 - A **Touch-Grass Ledger** (`grass done`, `grass stats`) with streaks and levels, from Seedling up to Ancient Banyan.
+
 If the weather is bad or your calendar is a wall, it doesn't pretend. It prescribes a five-minute "doorstep reset" at an open window instead.
  
 It's for anyone who knows they should go outside and keeps not doing it. Me included.
  
 ## Demo
- 
-<!-- TODO: add a short screen recording or GIF here (the card appears, then you close the laptop). On dev.to you can drag a GIF/image straight into the editor. -->
- 
+
 This is a real run on my laptop at 4:35 AM in Nagpur, Gemma 3 4B via Ollama, live Open-Meteo data:
- 
+
 ```text
 🌿 GRASS COACH · Mon 12 Oct · Nagpur
 ──────────────────────────────────────────────────────────
@@ -104,11 +103,7 @@ I wrote the code against a fake model server, so the real Gemma run was the actu
 The card above came out at 4:35 AM and pointed me at a 6:00 AM sunrise window.
  
 I headed out into the cool Nagpur dawn around 6:00 AM for a 30-minute sunrise walk, bringing along a light jacket, my water bottle, and a small notebook to log what I found. I took the challenge seriously (I got to a nice morning walk anyways) and kept my eyes peeled, successfully spotting seven distinct flower colors: bright marigold orange, deep bougainvillea magenta, soft yellow, pure white, crimson red, lavender purple, and tiny wild blue petals nestled along a garden hedge. The AQI sitting at 105 gave the sky a slightly hazy quality, so I adjusted by keeping my pace relaxed and steady rather than turning it into a brisk workout. Stepping away from the laptop after just ten seconds of screen time was a complete breath of fresh air; swapping my usual morning routine (watching reels and youtube on laptop/tab) of mindless scrolling for real sunlight and quiet streets left me feeling remarkably calm, grounded, and present. And also, flowers helped me talk to my crush.
- 
-## My Agent Session
- 
-<!-- TODO (optional): save this build session with DevRelay and embed it with the agent_session tag (see the challenge page for the exact syntax), or just link it here. If you skip it, delete this whole section. -->
- 
+
 ## Prize Categories
 
 - **Gemma**: runs Gemma locally by default (`gemma3:4b` through Ollama), with schema-constrained output and a verification layer around it.
